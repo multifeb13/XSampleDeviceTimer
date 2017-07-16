@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XSampleDeviceTimer"
              x:Class="XSampleDeviceTimer.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label x:Name="lblCount" Text="0" HorizontalTextAlignment="Center"/>
+        <Button x:Name="btnTimer" Text="Start Timer"/>
+    </StackLayout>
 
 </ContentPage>
